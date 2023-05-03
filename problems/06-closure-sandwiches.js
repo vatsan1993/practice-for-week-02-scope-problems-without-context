@@ -23,7 +23,7 @@ function sandwichMaker() {
   return (word) => {
     ingredients.push(word);
     let message = "One sandwich with "+ ingredients.join(" and ");
-    console.log(message);
+    return message;
   }
 }
 
